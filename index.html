@@ -1,11 +1,112 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Paper Coming Soon</title>
-  </head>
-  <body style="font-family:sans-serif; text-align:center; margin-top:20%;">
-    <h1>🚧 This paper page is under construction 🚧</h1>
-    <p>Check back soon for updates!</p>
-  </body>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Revelio: Blurred Images Can Still Disclose Your Identity</title>
+  <meta name="description" content="Project page (placeholder) for Revelio — identity-aware restoration of Gaussian-blurred faces.">
+  <meta property="og:title" content="Revelio: Blurred Images Can Still Disclose Your Identity">
+  <meta property="og:description" content="Project page (placeholder) for Revelio — identity-aware restoration of Gaussian-blurred faces.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <header class="container">
+    <h1>Revelio: Blurred Images Can Still Disclose Your Identity</h1>
+    <p class="authors">
+      <strong>Haoyu Zhai*</strong>, <strong>Shuo Wang*</strong>, Pirouz Naghavi, Qingying Hao, Gang Wang<br>
+      <span class="affil">University of Illinois Urbana-Champaign</span><br>
+      <span class="equal">*Equal contribution</span>
+    </p>
+    <nav class="nav">
+      <a href="#overview">Overview</a>
+      <a href="#results">Results</a>
+      <a href="#code">Code Access</a>
+      <a href="#citation">Citation</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="overview" class="card">
+      <h2>Overview</h2>
+      <p>
+        Gaussian blur is widely used for privacy protection in photos shared online, yet it often fails to anonymize faces.
+        <em>Revelio</em> is an identity-aware face deblurring system that leverages conditional diffusion and identity retrieval to
+        reconstruct blurred faces while preserving the original identity. This page is a temporary placeholder; full results, figures,
+        and dataset links will be added here after publication.
+      </p>
+    </section>
+
+    <section id="results" class="card">
+      <h2>Results (Coming Soon)</h2>
+      <ul class="todo">
+        <li>Qualitative comparisons: original vs. blurred vs. restored</li>
+        <li>Quantitative metrics: PSNR, SSIM, LPIPS, FID, IDD</li>
+        <li>Closed-world / Open-world case studies</li>
+        <li>Robustness to kernel mismatch and preliminary defenses</li>
+      </ul>
+      <div class="placeholder-box">
+        <p>📌 Placeholder for result figures will appear here.</p>
+      </div>
+    </section>
+
+    <section id="code" class="card">
+      <h2>Access to Code</h2>
+      <p>
+        Because the method can potentially enable misuse (e.g., deanonymization), the code is not publicly released.
+        Researchers may request access for legitimate academic purposes by emailing the authors. Please include:
+      </p>
+      <ol>
+        <li>Your name and institutional affiliation</li>
+        <li>Intended research use and a brief justification</li>
+        <li>A statement confirming responsible, ethical use (no privacy violations)</li>
+      </ol>
+      <details class="email-template">
+        <summary>Email Template</summary>
+        <pre>
+Subject: Revelio Code Access Request
+To: gangw@illinois.edu; zhai11@illinois.edu
+
+Dear authors,
+
+I am a researcher studying privacy-preserving image processing and would like to request
+access to the Revelio codebase for academic replication purposes. I confirm that I will
+use the code responsibly and will not employ it in ways that violate user privacy.
+
+Best regards,
+[Your Name]
+[Institution]
+[Website/Google Scholar]
+        </pre>
+      </details>
+      <p class="note">We may ask for additional information before granting access.</p>
+    </section>
+
+    <section id="citation" class="card">
+      <h2>Citation</h2>
+      <p>If you find this work useful, please cite:</p>
+      <pre class="bibtex">
+@inproceedings{zhai2025revelio,
+  title={Revelio: Blurred Images Can Still Disclose Your Identity},
+  author={Zhai, Haoyu and Wang, Shuo and Naghavi, Pirouz and Hao, Qingying and Wang, Gang},
+  booktitle={Proceedings of [Conference Name]},
+  year={2025}
+}
+      </pre>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>
+        Corresponding author: <a href="mailto:gangw@illinois.edu">Gang Wang</a><br>
+        General inquiries: <a href="mailto:zhai11@illinois.edu">zhai11@illinois.edu</a>
+      </p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© 2025 Revelio Project • This page is a temporary placeholder hosted on GitHub Pages.</p>
+  </footer>
+</body>
 </html>

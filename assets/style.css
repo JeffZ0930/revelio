@@ -1,0 +1,24 @@
+/* Minimal, clean academic style for a one-page project site */
+:root{
+  --fg:#111; --bg:#fff; --muted:#666; --accent:#2b6cb0; --card:#f7fafc; --border:#e2e8f0;
+}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;color:var(--fg);background:var(--bg);font:16px/1.6 system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji","Segoe UI Emoji"}
+.container{max-width:960px;margin:0 auto;padding:1.25rem}
+header h1{margin:.5rem 0 0;font-size:1.9rem;line-height:1.25}
+.authors{margin:.25rem 0 1rem;color:var(--muted)}
+.affil{display:block;margin-top:.25rem}
+.equal{display:block;font-size:.95rem}
+.nav{display:flex;gap:1rem;flex-wrap:wrap;margin:.75rem 0 0}
+.nav a{color:var(--accent);text-decoration:none;border-bottom:1px solid transparent}
+.nav a:hover{border-bottom-color:var(--accent)}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:1rem;margin:1rem 0}
+.card h2{margin:.25rem 0 .5rem}
+.todo{margin:.25rem 0 .5rem}
+.placeholder-box{border:2px dashed var(--border);padding:1rem;border-radius:12px;background:#fff}
+.email-template summary{cursor:pointer;color:var(--accent);font-weight:600}
+pre, code{background:#fff;border:1px solid var(--border);border-radius:10px;padding:.75rem;overflow:auto}
+.footer{color:var(--muted);text-align:center;font-size:.95rem}
+@media (min-width: 800px){
+  header h1{font-size:2.2rem}
+}
