@@ -6,7 +6,7 @@ This repository hosts the GitHub Pages site for the paper:
 *Haoyu Zhai*, *Shuo Wang*, Pirouz Naghavi, Qingying Hao, Gang Wang  
 University of Illinois Urbana-Champaign
 
-> This site is a temporary placeholder. Results, figures, and dataset links will be added after publication.
+<!-- > This site is a temporary placeholder. Results, figures, and dataset links will be added after publication. -->
 
 <!-- ## How to view locally
 Open `index.html` directly in your browser, or enable GitHub Pages in this repo:
